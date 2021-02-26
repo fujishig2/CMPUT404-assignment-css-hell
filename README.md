@@ -42,8 +42,8 @@ For 3.html, I removed all the content in the style tags and linked part1.css
 to it, and linked the google fonts styles for satisfy, as recommended within 
 the Google fonts docs, found here: 
 https://fonts.google.com/specimen/Satisfy?query=satisf&preview.text_type=custom. 
-I also replaced the img src tag from src="/images/<content>.jpg" to 
-src="http://www.gutenberg.org/files/203/203-h/images/<content>.jpg" on 
+I also replaced the img src tag from src="/images/('content.jpg')" to 
+src="http://www.gutenberg.org/files/203/203-h/images/('content.jpg')" on 
 lines 57, 2575, 7862, 13084, 17284, 24171, and 26007.
 
 For Part 1 I did neither collaboration, nor did I reference external
