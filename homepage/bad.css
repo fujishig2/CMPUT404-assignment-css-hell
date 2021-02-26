@@ -1,0 +1,91 @@
+body {
+    text-align: justify; 
+    background-color: yellow;
+}
+
+.header {
+    display: block;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+}
+
+.main-body {
+    margin-top: 1em;
+}
+
+a.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    background-color: red;
+}
+
+a.button:hover {
+    background-color: #111;
+}
+
+.nav {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+.sidebar {
+    margin-right: 1em;
+    padding: 1em;
+    width: 10em;
+    float: left;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.about-me, .work-history, .offer {
+    margin-left: 12.5em;
+    margin-bottom: 0.5em;
+    padding: 1px 16px;
+    display: block;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+ul.work-list {
+    list-style-type: none;
+}
+
+.profile-sidebar {
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.profile-picture {
+    height: auto;
+    width: 60%;
+    opacity: 1;
+    margin: 0;
+}
+
+.profile-content {
+    margin-left: 21%;
+    margin-bottom: 0.5em;
+}

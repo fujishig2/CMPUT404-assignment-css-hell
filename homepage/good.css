@@ -1,0 +1,167 @@
+body {
+    text-align: justify; 
+    background-image: url('20190710_103648.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: block;
+    padding: 1em;
+    border: 1px solid #111;
+    margin: 0.5em;
+    text-align: center;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.main-body {
+    display: block;
+    color: rgb(59, 59, 59);
+    margin: 0.5em;
+}
+.content {
+    text-align: left;
+}
+
+a.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    background-color: #444;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+a.button:hover {
+    background-color: #111;
+}
+
+.nav {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar {
+    margin-right: 1em;
+    padding: 1em;
+    width: 10em;
+    float: left;
+    height: 100%;
+    border: 1px solid #111;
+    border-radius: 1em;
+    background-color: white;
+    text-align: left;
+}
+
+.about-me, .work-history, .offer {
+    margin-left: 12.5em;
+    margin-bottom: 0.5em;
+    padding: 1px 16px;
+    border: 1px solid #111;
+    border-radius: 1em;
+    background: rgba(255,255,255,.9);
+}
+
+h3 {
+    color: rgb(4, 4, 114);
+    padding: 1em;
+    border-bottom: 2px solid rgb(4, 4, 114);
+}
+
+h4 {
+    color: rgb(6, 6, 51);
+    padding: 1em;
+    border-bottom: 1px solid rgb(6, 6, 51);
+}
+
+ul.work-list {
+    list-style-type: none;
+}
+
+.profile-sidebar {
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.profile-picture {
+    height: auto;
+    width: 60%;
+    opacity: 1;
+    margin: 0;
+}
+
+.profile-content {
+    margin-left: 21%;
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1500px) {
+    .profile-picture {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sidebar {
+        margin: 0;
+        margin-bottom: 0.5em;
+        width: auto;
+        height: auto;
+        float: none;
+        position: relative;
+    }
+    .about-me, .work-history, .offer {
+        margin-left: 0;
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .profile-sidebar {
+        width: 30%;
+    }
+    
+    .profile-content {
+        margin-left: 31%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .profile-sidebar {
+        margin: 0;
+        margin-bottom: 0.5em;
+        width: auto;
+        height: auto;
+        float: none;
+        position: relative;
+    }
+    .profile-picture {
+        height: auto;
+        width: 15em;
+        opacity: 1;
+        margin: 0;
+    }
+    .profile-content {
+        margin-left: 0;
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    a.button {
+        display: block;
+    }
+}
